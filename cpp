@@ -1,15 +1,4 @@
 #include <iostream>
-using namespace std; 
-int main() 
-{
-    float a, b, product;
-    cout<<"Enter Two Numbers: \n";
-    cin>>a>> b;
-    product = a*b;
-    cout<<"Product = "<<product;
-    return 0;
-}
-#include <iostream>
 using namespace std;
 
 int main() 
@@ -19,5 +8,17 @@ int main()
     cout << "Size of float: " << sizeof(float) << " bytes" << endl;
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
 
+    return 0;
+}
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+    float a, b, product;
+    cout << "Enter two Numbers: \n";
+    cin >> a >> b;
+    product = a*b;
+    cout << "Product = " << product;
     return 0;
 }
